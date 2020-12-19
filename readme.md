@@ -20,7 +20,7 @@ A simple score keeping web application created with Meteor, ReactJS, and MongoDB
     npm start
     ```
 
-    View app on `http://localhost:3000`!
+    View app on `http://localhost:3000`
 
 ## 📷 Screenshots
 
