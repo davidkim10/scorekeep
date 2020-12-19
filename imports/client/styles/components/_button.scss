@@ -1,27 +1,51 @@
 .button {
-    background: transparent;
-    border: 1px solid #555;
-    color: #555;
-    cursor: pointer;
-    font-weight: 600;
-    line-height: 1;
-    margin-left: 1.3rem;
-    outline: none;
-    padding: 1.3rem;
-    transition: background .2s ease, transform .2s ease;
+  background: #fff;
+  background-color: $primary;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  color: #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 1.3rem;
+  outline: none;
+  padding: 1.3rem;
+  transition: background 0.2s ease, transform 0.2s ease;
 
-    &:hover, &:focus {
-        background: #e8e8e8;
-    }
+  &:hover,
+  &:focus {
+    background: lighten($primary, 5%);
+  }
 
-    &:active {
-        background: #ccc;
-        transform: scale(1.1)
-    }
+  &:active {
+    background: lighten($primary, 5%);
+    transform: scale(1.1);
+  }
+}
+
+.button--primary {
+  border: none;
+  color: #fff;
 }
 
 .button--round {
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px -2px rgba(211, 44, 44, 0.2),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+  height: 4rem;
+  width: 4rem;
+
+  &:hover,
+  &:focus {
+    background: #f8f8f8;
+  }
+
+  &:active {
+    background: #eee;
+    transform: scale(1.1);
+    box-shadow: none;
+  }
 }
