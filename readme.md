@@ -10,8 +10,7 @@ A simple score keeping web application created with Meteor, ReactJS, and MongoDB
 
 ## Screenshots
 
-![Screenshots](./public/screenshot-01.png)
-![Screenshots](./public/screenshot-02.png)
+![Screenshots](./public/screenshot-03.png)
 
 ## Frequently Asked Questions
 
