@@ -2,6 +2,8 @@
 
 A simple score keeping web application created with Meteor, ReactJS, and MongoDB.
 
+[View Live Example](https://simple-score.herokuapp.com/)
+
 ## 🚀 Quick start
 
 1.  **Project Setup**
